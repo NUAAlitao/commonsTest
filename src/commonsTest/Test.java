@@ -21,7 +21,6 @@ public class Test {
 		mycontains();
 		myprintln();
 		myuppercase();
-		
 	}
 	
 	public static void myArrayUtils(){
@@ -97,6 +96,11 @@ public class Test {
 	}
 	
 	public static void myuppercase(){
+		String str = "sdff";
+		System.out.println("将字母转换成大写："+ StringUtils.upperCase(str));
+	}
+	
+	public static void myuppercase1(){
 		String str = "sdff";
 		System.out.println("将字母转换成大写："+ StringUtils.upperCase(str));
 	}
